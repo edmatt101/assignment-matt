@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+  background-color: #f2f4f8;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #e0f7fa, #e3f2fd);
+  padding: 6rem 1rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0d47a1;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  color: #37474f;
+  max-width: 600px;
+  margin: auto;
+}
+
+.about-section {
+  padding: 5rem 1rem;
+  background-color: #fff;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1 1 500px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #0d47a1;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pillar h3 {
+  color: #1565c0;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.pillar p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.about-image {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #eceff1;
+  font-size: 0.95rem;
+  color: #555;
+}
